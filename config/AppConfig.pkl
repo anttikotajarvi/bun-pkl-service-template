@@ -1,0 +1,11 @@
+module config
+
+greeting: String
+service: Service
+
+/* ------------------------ */
+
+class Service {
+  name: String
+  port: Int
+}

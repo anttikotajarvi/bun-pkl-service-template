@@ -1,0 +1,8 @@
+services:
+  api:
+    build: .
+    ports: 
+      - "3000:3000"
+    volumes:
+      # override config inside container
+      - ./config.pkl:/app/config.pkl:ro

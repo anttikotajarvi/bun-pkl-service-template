@@ -1,0 +1,7 @@
+amends "AppConfig.pkl"
+
+greeting = "Hello"
+service {
+  name = "bun-pkl-service"
+  port = 3000
+}

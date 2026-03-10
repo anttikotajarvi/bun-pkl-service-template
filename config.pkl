@@ -1,0 +1,6 @@
+amends "config/default.pkl"
+
+greeting = "Hi!"
+service {
+  port = 3000
+}
