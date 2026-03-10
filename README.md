@@ -16,3 +16,6 @@
 ### Dev usage
 1. Install deps `bun install`
 2. Modify configs -> update src types `bun run gen:config:types`
+
+### Config overrides
+- The `dist/config.js` module reads and validates the `./config.pkl` file in runtime; so no re-building is required on config (value) changes.
